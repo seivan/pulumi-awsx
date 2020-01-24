@@ -2,6 +2,7 @@ CHANGELOG
 =========
 
 ## HEAD (Unreleased)
+* Add support for `FirelensConfiguration` to `ecs.Container`
 
 ## 0.19.1 (2020-01-22)
 
