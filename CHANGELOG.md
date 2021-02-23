@@ -2,7 +2,8 @@ CHANGELOG
 =========
 
 ## HEAD (Unreleased)
-_(none)_
+* Introducing `requestedAvailabilityZone` on `ec2.vps.VpcArgs` that takes `number | "all" | string[]`, to allow specific zones for creating a VPC.
+* Adding deprecation warning to `numberOfAvailabilityZones` on `ec2.vps.VpcArgs` in favour of `requestedAvailabilityZone`
 
 ## 0.25.0 (2021-02-12)
 
