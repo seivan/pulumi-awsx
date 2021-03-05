@@ -3,7 +3,7 @@ CHANGELOG
 
 ## HEAD (Unreleased)
 
-* Introducing `requestedAvailabilityZone` on `ec2.vps.VpcArgs` that takes `number | "all" | Input<[string, ...string[]]>`, to allow specific zones for creating a VPC.[#638](https://github.com/pulumi/pulumi-awsx/pull/638/)
+* Introducing `requestedAvailabilityZone` on `ec2.vps.VpcArgs` that takes `number | "all" | [string, ...string[]] | Input<string[]>`, to allow specific zones for creating a VPC.[#638](https://github.com/pulumi/pulumi-awsx/pull/638/)
 * Adding deprecation warning to `numberOfAvailabilityZones` on `ec2.vps.VpcArgs` in favour of `requestedAvailabilityZone`.
 * Create `CapacityProviderService` to make it possible to use capacity provider strategies solving [#599](https://github.com/pulumi/pulumi-awsx/issues/599).
 * Ensure that `awsx.apigateway.APIArgs` `RestApiArgs` reflect the underlying pulumi-aws library
